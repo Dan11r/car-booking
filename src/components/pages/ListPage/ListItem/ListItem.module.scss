@@ -1,0 +1,29 @@
+@import '../../../../assets/variables';
+
+.ListItem{
+  display: flex;
+  width: 550px;
+  margin-bottom: 35px;
+  cursor: pointer;
+  @media (max-width: 550px){
+    width: 100%;
+  }
+  .description{
+    p{
+      margin: 0;
+    }
+    .carName{
+      font-size: 15px;
+      text-align: left;
+      color: $black;
+    }
+    .status{
+      font-size: 15px;
+      color: $gray;
+    }
+    .date{
+      font-size: 15px;
+      color: $gray;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../../../../assets/variables';
+
+.input{
+ border: $grayBorder solid 1px;
+ border-radius: 4px;
+ outline: none;
+ width: 100%;
+ height: 60px;
+ padding: 25px 0 25px 20px;
+ font-size: 18px;
+ &::placeholder{
+   color: $grayBorder;
+   font-size: 16px;
+ }
+}
+
+
+

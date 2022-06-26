@@ -1,0 +1,1 @@
+что бы запустить проект надо ввести команды - npm run start:dev и npm run server

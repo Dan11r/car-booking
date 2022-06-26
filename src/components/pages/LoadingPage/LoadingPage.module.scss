@@ -1,0 +1,28 @@
+@import '../../../assets/variables';
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $whiteBG;
+  opacity: .8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .LoaderImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: Rotate infinite ease 1000ms;
+  }
+}
+@keyframes Rotate {
+  from {
+    transform: rotateZ(0);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}

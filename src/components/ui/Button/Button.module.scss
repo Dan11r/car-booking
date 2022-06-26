@@ -1,0 +1,13 @@
+@import '../../../assets/variables';
+
+.button{
+    border-radius:3px;
+    border: none;
+    background-color: $blueBtn;
+    color: $white;
+    padding: 15px;
+    cursor: pointer;
+    &:disabled{
+        background-color: $lightBlueBtn;
+    }
+}

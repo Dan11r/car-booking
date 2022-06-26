@@ -1,0 +1,22 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .contentTitle{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 41px;
+    text-align: left;
+    @media (max-width: 550px){
+      margin-bottom: 10px;
+      font-size: 31px;
+    }
+  }
+  .contentDescription{
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.533;
+    text-align: left;
+  }
+}

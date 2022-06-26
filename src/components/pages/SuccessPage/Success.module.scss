@@ -1,0 +1,36 @@
+.successPage{
+  margin: 75px auto 0 auto;
+  width: 550px;
+  @media (max-width: 550px){
+    max-width: 550px;
+    margin-top: 30px;
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    .titleImg{
+      width: 45px;
+      height: 45px;
+      img{
+        width: 45px;
+        height: 45px;
+      }
+    }
+    .titleText{
+      margin-left: 20px;
+      font-size: 40px;
+      text-align: left;
+      @media (max-width: 550px){
+        font-size: 30px;
+      }
+    }
+  }
+  .description{
+    font-size: 24px;
+    text-align: left;
+    margin: 40px 0;
+    @media (max-width: 550px){
+      font-size: 20px;
+    }
+  }
+}

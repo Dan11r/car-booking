@@ -1,0 +1,27 @@
+@import '../../../assets/extensions';
+@import '../../../assets/variables';
+
+
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  min-height: 100vh;
+  width: 100%;
+  background-color: $whiteBG;
+  .main{
+    flex-basis: 100vh;
+    .mainContainer{
+      @extend %container;
+      padding-top: 40px;
+      max-width: 550px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+

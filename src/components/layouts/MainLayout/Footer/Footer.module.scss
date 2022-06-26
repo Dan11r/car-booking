@@ -1,0 +1,11 @@
+@import '../../../../assets/variables';
+@import '../../../../assets/extensions';
+
+.footer{
+  margin-top: 40px;
+  background-color: $lightBlueBG;
+  .footerContainer{
+    margin: 35px auto;
+    @extend %container;
+  }
+}

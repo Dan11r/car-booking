@@ -1,0 +1,31 @@
+@import '../../../../assets/extensions';
+@import '../../../../assets/variables';
+
+.header{
+  background-color: $lightBlueBG;
+  .headerContainer{
+    display: flex;
+    align-items: center;
+    margin: 35px auto;
+    @extend %container;
+  }
+  a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  h1{
+    margin: 0 0 0 25px;
+    font-size: 30px;
+    line-height: 1.4;
+    text-align: center;
+    color: black;
+    @media (max-width: 550px){
+      font-size: 20px;
+    }
+  }
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}
